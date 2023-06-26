@@ -1,0 +1,36 @@
+/* meteo simplon */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    background-color: bisque;
+    background-image: url("img\carte.jpg");
+    background-image: url('https://source.unsplash.com/1600x900/?landscape')
+   }
+
+.titre { 
+    text-align: center;
+    font-size:1.5em;
+    font-weight: bold;
+    }
+
+.box{ 
+    background-color: black;
+    color: rosybrown;
+    border-radius: 35px;
+    width: 450px;
+    text-align: center;
+    padding:0.1em 5em;
+    margin: auto
+    }
+
+#auteur {
+    text-align: right;
+    font-family: initial;
+    font-size: 0.45em;
+
+}
+
+
+
+
