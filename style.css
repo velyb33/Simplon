@@ -3,33 +3,52 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
-    background-color: bisque;
-    background-image: url("img\carte.jpg");
-    background-image: url('https://source.unsplash.com/1600x900/?landscape')
+    background-color: black;
    }
 
 .titre { 
     text-align: center;
     font-size:1.5em;
     font-weight: bold;
+    text-transform: uppercase;
+    /* background-color: whitesmoke; */
+    background: linear-gradient(to right,#8360c3,#2ebf91);
+    padding: 25px;
     }
 
+.ville {
+    text-transform: uppercase;
+}
+
 .box{ 
-    background-color: black;
+    background-color:black;
     color: rosybrown;
     border-radius: 35px;
-    width: 450px;
-    text-align: center;
+    width: 300px;
+    height: 600px;
+    text-align: right;
     padding:0.1em 5em;
-    margin: auto
+    margin:auto
     }
+.temp{
+    text-align: center;
+}
 
 #auteur {
     text-align: right;
-    font-family: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
     font-size: 0.45em;
-
 }
+
+.fond{
+    background-image: url("Img/montreuil.jpg");  /* Clin d'oeil a Simplon Montreuil */
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+
 
 
 
